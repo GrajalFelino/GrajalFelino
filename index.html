@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio | Grajal Felino - Asociación Bienestar Animal de Grajal de Campos</title>
+  <meta name="description" content="Bienvenido a Grajal Felino, la Asociación de Bienestar Animal de Grajal de Campos (León). Trabajamos por el cuidado de los animales, el control ético de colonias felinas (Método CER) y la concienciación social.">
+  <meta name="keywords" content="bienestar animal, grajal de campos, gatos, perros, adopcion, metodo cer, castilla y leon, proteccion animal">
+  <meta name="author" content="Asociación Bienestar Animal Grajal de Campos">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  
+  <!-- Estilos Globales -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Cabecera / Navbar -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="nav-brand" id="nav-logo-link">
+        <img src="assets/logo.png" alt="Logotipo de Grajal Felino - Bienestar Animal G.D.C" id="nav-logo-img">
+        <span>
+          Grajal Felino
+          <span class="brand-sub">Bienestar Animal G.D.C</span>
+        </span>
+      </a>
+      
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú de navegación" aria-controls="nav-menu" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+      
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="nav-link active" id="menu-home">Inicio</a></li>
+        <li><a href="quienes-somos.html" class="nav-link" id="menu-about">Quiénes Somos</a></li>
+        <li><a href="metodo-cer.html" class="nav-link" id="menu-cer">Método CER</a></li>
+        <li><a href="colabora.html" class="nav-link" id="menu-colabora">Colabora</a></li>
+        <li><a href="contacto.html" class="nav-link" id="menu-contact">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sección Hero -->
+    <section class="hero" aria-labelledby="hero-title-header">
+      <div class="container hero-grid">
+        <div class="hero-content animate-slide-up">
+          <div class="hero-tagline">
+            <span class="badge badge-accent">Asociación Bienestar Animal</span>
+          </div>
+          <h1 class="hero-title" id="hero-title-header">Cuidando de nuestros animales en <span>Grajal de Campos</span></h1>
+          <p class="hero-desc">Trabajamos incansablemente para mejorar la vida de los gatos en nuestro pueblo. Promovemos el control ético de colonias mediante el método CER (Captura, Esterilización y Retorno) y buscamos un futuro mejor para todos ellos.</p>
+          <div class="hero-btns">
+            <a href="colabora.html" class="btn btn-primary" id="hero-cta-colabora"><i data-lucide="heart"></i> Cómo Colaborar</a>
+            <a href="quienes-somos.html" class="btn btn-secondary" id="hero-cta-about"><i data-lucide="info"></i> Conócenos</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper animate-slide-up delay-1">
+          <div class="hero-image-container">
+            <img src="assets/hero.png" alt="Un gato y un perro juntos descansando tranquilamente" class="hero-image" id="hero-img-main">
+            <div class="hero-floating-card">
+              <div class="hero-floating-icon">
+                <i data-lucide="shield-check"></i>
+              </div>
+              <div class="hero-floating-text">
+                <h4>Compromiso Local</h4>
+                <p>Cuidado ético y responsable</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Estadísticas -->
+    <section class="section section-alt" aria-labelledby="stats-title">
+      <div class="container">
+        <h2 class="sr-only" id="stats-title">Nuestras cifras</h2>
+        <div class="stats-grid">
+          <div class="stat-card card-glass">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Gatos Esterilizados</div>
+          </div>
+          <div class="stat-card card-glass">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Colonias Controladas</div>
+          </div>
+          <div class="stat-card card-glass">
+            <div class="stat-number">-</div>
+            <div class="stat-label">Adopciones Gestionadas</div>
+          </div>
+          <div class="stat-card card-glass">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Esfuerzo Voluntario</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Misión y Pilares -->
+    <section class="section" aria-labelledby="mision-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge badge-primary">Nuestra labor</span>
+          <h2 class="section-title" id="mision-title">¿Qué hacemos en Grajal Felino?</h2>
+          <p class="section-desc">Nos enfocamos en el bienestar integral de los animales de Grajal de Campos, combinando la acción directa con la concienciación y colaboración con el ayuntamiento y los vecinos.</p>
+        </div>
+        
+        <div class="features-grid">
+          <!-- Pilar 1 -->
+          <div class="feature-card card-glass">
+            <div class="feature-icon-box">
+              <i data-lucide="cat"></i>
+            </div>
+            <h3>Gestión de Colonias (CER)</h3>
+            <p>Capturamos, esterilizamos y retornamos a los gatos comunitarios a sus colonias. Esto asegura una convivencia armoniosa y controla la población felina de forma ética.</p>
+          </div>
+          
+          <!-- Pilar 2 -->
+          <div class="feature-card card-glass">
+            <div class="feature-icon-box">
+              <i data-lucide="home"></i>
+            </div>
+            <h3>Casas de Acogida</h3>
+            <p>Los animales vulnerables o abandonados son atendidos temporalmente por voluntarios en sus hogares, donde reciben el cariño y la atención veterinaria que necesitan antes de encontrar su hogar definitivo.</p>
+          </div>
+          
+          <!-- Pilar 3 -->
+          <div class="feature-card card-glass">
+            <div class="feature-icon-box">
+              <i data-lucide="users"></i>
+            </div>
+            <h3>Concienciación Social</h3>
+            <p>Realizamos charlas, campañas informativas y colaboramos activamente con los vecinos para fomentar la tenencia responsable de animales y el respeto hacia la fauna urbana.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección CTA Transicional -->
+    <section class="section section-alt" aria-labelledby="cta-title">
+      <div class="container" style="text-align: center; max-width: 800px;">
+        <span class="badge badge-secondary" style="margin-bottom: 1rem;">Tu ayuda importa</span>
+        <h2 class="section-title" id="cta-title" style="margin-bottom: 1.5rem;">¿Quieres ayudarnos a cuidar de ellos?</h2>
+        <p class="section-desc" style="margin-bottom: 2.5rem;">Somos una asociación vecinal y tu implicación directa es lo que marca la diferencia. Necesitamos alimentadores que atiendan los puntos oficiales de comida y casas de acogida para resguardar a los más vulnerables.</p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="colabora.html" class="btn btn-primary" id="cta-btn-colabora-main"><i data-lucide="heart"></i> Cómo Colaborar</a>
+          <a href="contacto.html" class="btn btn-secondary" id="cta-btn-contacto-main"><i data-lucide="mail"></i> Contactar Ahora</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de Página -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-title">
+          <img src="assets/logo.png" alt="Logotipo Blanco - Grajal Felino">
+          <span>Grajal Felino</span>
+        </div>
+        <p class="footer-desc">Asociación para el bienestar animal de Grajal de Campos (León, España). Dedicados al cuidado y protección de la fauna urbana.</p>
+        <div class="footer-socials">
+          <a href="https://facebook.com/grajalfelino" class="footer-social-icon" target="_blank" aria-label="Facebook (abre en pestaña nueva)"><i data-lucide="facebook"></i></a>
+          <a href="https://instagram.com" class="footer-social-icon" target="_blank" aria-label="Instagram (abre en pestaña nueva)"><i data-lucide="instagram"></i></a>
+          <a href="mailto:grajalfelino@hotmail.com" class="footer-social-icon" aria-label="Enviar Correo Electrónico"><i data-lucide="mail"></i></a>
+        </div>
+      </div>
+      
+      <div>
+        <h3 class="footer-title">Enlaces Rápidos</h3>
+        <ul class="footer-links">
+          <li class="footer-link"><a href="index.html">Inicio</a></li>
+          <li class="footer-link"><a href="quienes-somos.html">Quiénes Somos</a></li>
+          <li class="footer-link"><a href="metodo-cer.html">Método CER</a></li>
+          <li class="footer-link"><a href="colabora.html">Colabora</a></li>
+          <li class="footer-link"><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <h3 class="footer-title">Método CER</h3>
+        <p class="footer-desc" style="font-size: 0.85rem; color: #94A3B8;">El control ético mediante Captura, Esterilización y Retorno es la única forma eficaz de gestionar las colonias de gatos ferales y garantizar su bienestar en el pueblo.</p>
+      </div>
+      
+      <div>
+        <h3 class="footer-title">Contacto Oficial</h3>
+        <div class="footer-contact-item">
+          <i data-lucide="map-pin"></i>
+          <span>Grajal de Campos, 24340<br>León, España</span>
+        </div>
+        <div class="footer-contact-item">
+          <i data-lucide="mail"></i>
+          <a href="mailto:grajalfelino@hotmail.com" style="color: #94A3B8;">grajalfelino@hotmail.com</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p style="width: 100%; text-align: center; margin-bottom: 1rem; color: #94A3B8; font-weight: 500;">
+        <i data-lucide="scale" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-right: 4px; color: var(--accent);"></i>
+        Todas las acciones y gestiones de esta asociación se encuentran amparadas por la legislación vigente en materia de protección y bienestar animal.
+      </p>
+      <p>&copy; 2026 Grajal Felino - Asociación Bienestar Animal de Grajal de Campos. Todos los derechos reservados.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Aviso Legal</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="main.js"></script>
+</body>
+</html>
